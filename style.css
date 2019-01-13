@@ -1,6 +1,8 @@
 div {
     margin: o; 
-    padding: 0;}
+    padding: 0;
+}
+
 div div {
     background: #A4CA39; 
     position: relative;
@@ -72,7 +74,7 @@ div div {
 .body {
   width: 220px;
   height: 184px;
-  top:  40px;
+  top:  10px;
   
   border-radius: 0 0 25px 25px;
   -webkit-border-radius: 0 0 25px 25px;
@@ -121,15 +123,15 @@ div div {
 }
 
 .head:hover {
-  transform: rotate(-5deg) translate(-4px, -8px);
-  -webkit-transform: rotate(-5deg) translate(-4px, -8px);
-  -moz-transform: rotate(-5deg) translate(-4px, -8px);
+  transform: rotate(-8deg) translate(-4px, -8px);
+  -webkit-transform: rotate(-8deg) translate(-4px, -8px);
+  -moz-transform: rotate(-8deg) translate(-4px, -8px);
 }
 
 .leftArm:hover {
-  transform: rotate(15deg) translate(-14px, 0);
-  -webkit-transform: rotate(15deg) translate(-14px, 0);
-  -moz-transform: rotate(15deg) translate(-14px, 0);
+    transform: rotate(30deg) translate(-30px, 0);
+    -webkit-transform: rotate(30deg) translate(-30px, 0);
+    -moz-transform: rotate(30deg) translate(-30px, 0);
 }
 
 .rightArm:hover {
@@ -138,3 +140,16 @@ div div {
   -moz-transform: rotate(-30deg) translate(30px, 0);
 }
 
+.rightLeg:hover {
+    transform: rotate(-30deg) translate(30px, 0);
+    -webkit-transform: rotate(-30deg) translate(30px, 0);
+    -moz-transform: rotate(-30deg) translate(30px, 0);
+
+}
+
+.leftLeg:hover {
+    transform: rotate(30deg) translate(-30px, 0);
+    -webkit-transform: rotate(30deg) translate(-30px, 0);
+    -moz-transform: rotate(30deg) translate(-30px, 0);
+
+}
